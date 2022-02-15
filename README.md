@@ -1,1 +1,1 @@
-# config-vscode
+# Configuração que uso no VSCODE
