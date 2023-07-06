@@ -1,29 +1,37 @@
 {
   "security.workspace.trust.untrustedFiles": "open",
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontSize": 16,
+  "editor.tabSize": 2,
+  "workbench.iconTheme": "material-icon-theme",
+  // bracketColorization
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "explorer.compactFolders": false,
+  "editor.accessibilitySupport": "off",
+  "editor.rulers": [80, 120],
   "workbench.startupEditor": "newUntitledFile",
   "workbench.editor.labelFormat": "short",
-  "workbench.iconTheme": "material-icon-theme",
   "workbench.editor.enablePreview": false,
   "workbench.sideBar.location": "left",
   "window.menuBarVisibility": "toggle",
   "workbench.list.smoothScrolling": true,
-  "workbench.colorTheme": "Night Owl",
   "workbench.editorAssociations": {
     "*.ipynb": "jupyter.notebook.ipynb"
   },
 
   // Explorer
-  "explorer.compactFolders": false,
   "explorer.confirmDelete": false,
 
   // Editor and breadcrumbs
   "breadcrumbs.enabled": true,
   "editor.renderControlCharacters": false,
-  "editor.tabSize": 2,
   "editor.renderLineHighlight": "gutter",
-  "editor.rulers": [79, 120],
   "editor.minimap.enabled": false,
-  "editor.fontSize": 14,
   "editor.detectIndentation": true,
   "editor.snippetSuggestions": "top",
   "editor.wordBasedSuggestions": false,
@@ -34,15 +42,12 @@
   "editor.mouseWheelScrollSensitivity": 2,
   "editor.smoothScrolling": true,
   "editor.linkedEditing": true,
-  "editor.fontFamily": "'Operator Mono Lig Book', 'SF Mono', Consolas, 'Source Code Pro', 'Dank Mono', 'Fira Code', Menlo, 'Inconsolata', 'Droid Sans Mono', 'DejaVu Sans Mono', 'Ubuntu Mono', 'Courier New', Courier, Monaco, monospace",
   "editor.glyphMargin": false,
   "editor.fontLigatures": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true,
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true,
-    "source.organizeImports": true
-  },
+  //"editor.formatOnSave": true,
+  "eslint.workingDirectories": [{ "mode": "auto" }],
+  "editor.codeActionsOnSave": [ "source.organizeImports", "source.fixAll.eslint" ],
 
   // Git
   "git.enableSmartCommit": true,
@@ -189,8 +194,12 @@
   ],
   "cSpell.language": "en,pt",
   "editor.suggestSelection": "first",
-  "cSpell.userWords": ["chakra", "middlewares", "prefetch", "rocketseat"],
-  "workbench.productIconTheme": "fluent-icons",
+  "cSpell.userWords": [
+    "chakra",
+    "middlewares",
+    "prefetch",
+    "rocketseat"
+  ],
   "terminal.integrated.showExitAlert": false,
 
   "splitHTMLAttributes.closingBracketOnNewLine": true,
@@ -226,6 +235,8 @@
   "[css]": {
     "editor.defaultFormatter": "vscode.css-language-features"
   },
-  "[php]": {},
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
   "window.zoomLevel": -1
 }
